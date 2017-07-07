@@ -1,4 +1,5 @@
 ﻿# Creates a VM and puts it an a pre-existing network subnet based on its role
+# Could use more checks on storage account name but we mostly uses dashes in VM names so that's what we check for
 #
 Param(
 [parameter(Mandatory=$true)]
